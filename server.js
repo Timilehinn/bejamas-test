@@ -5,6 +5,8 @@ const PORT = process.env.PORT || 5000
 
 app.use(express.static('build'))
 
+
+// basic ssr
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "build", "index.html"));
 });
