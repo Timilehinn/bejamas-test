@@ -1,0 +1,25 @@
+.main{
+    width:30%;
+    height:300px;
+}
+.img{
+    background-size: 100% 100%;
+    height:200px
+}
+.productTag{
+    position: absolute;
+    background-color:rgb(253, 253, 253);
+}
+.productTag p{
+    margin:.3rem;
+    font-size: .8rem;
+}
+@media (min-width: 0px) and (max-width: 767px) { 
+    .main{
+        width:90%;
+        height:500px;
+    }
+    .img{
+        height:400px;
+    }
+}

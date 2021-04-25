@@ -3,10 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CartContextApi from './contexts/cartContextApi'
+import ProductContextApi from './contexts/productContextApi'
+
 
 ReactDOM.render(
   <React.StrictMode>
+    <CartContextApi>
+      <ProductContextApi>
     <App />
+    </ProductContextApi>
+    </CartContextApi>
   </React.StrictMode>,
   document.getElementById('root')
 );
