@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react'
-import { FaArrowUp, FaArrowDown } from 'react-icons/fa'
 import {ProductContext} from '../contexts/productContextApi'
+import { HiOutlineArrowDown, HiOutlineArrowUp } from 'react-icons/hi'
 
 function Sort() {
 
@@ -68,14 +68,14 @@ function Sort() {
     return (
         <div style={{display:'flex', alignItems:'center'}}>
             <span style={{margin:'1rem'}}>
-                <FaArrowUp color={arrUpActiveColor} style={{cursor:'pointer'}} onClick={()=>sortOne()} />
-                <FaArrowDown color={arrDwnActiveColor} style={{cursor:'pointer'}} onClick={()=>sortTwo()} />
+                <HiOutlineArrowUp color={arrUpActiveColor} style={{cursor:'pointer'}} onClick={()=>sortOne()} />
+                <HiOutlineArrowDown color={arrDwnActiveColor} style={{cursor:'pointer'}} onClick={()=>sortTwo()} />
             </span>
-            <p style={{fontWeight:'bold',color:'grey'}}>Sort by</p>
+            <p style={{color:'grey',marginRight:'.5rem'}}>Sort by</p>
             <select 
                 onChange={e=>setSortValue(e.target.value)} 
                 style={{
-                    fontWeight:'bold',
+                    fontWeight:'lighter',
                     cursor:'pointer', 
                     outline:'none',
                     fontSize:'1.2rem',

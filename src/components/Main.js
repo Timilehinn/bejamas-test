@@ -185,6 +185,7 @@ function Main() {
 
                     {/* displayed on large screens */}
                     <div className={styles.categoryBox}>
+                        {/* <h2>Photography / <span style={{fontSize:'.9rem',color:'grey'}}>Premium Photos</span></h2> */}
                         <h3 onClick={()=>alert(category)}>Category</h3>
                         <Category name="People" value="people" />
                         <Category name="Premium" value="premium" />

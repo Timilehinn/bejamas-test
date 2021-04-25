@@ -8,40 +8,10 @@
     height:30px;
     width:98%
 }
-.cart{
-    width:250px;
-    right:4vw;
-    top:18.7vh;
-    color:white;
-    height:150px;
-    border:2px solid lightgrey;
-    overflow-y:scroll;
-    position:absolute;
-    background-color:white;
-}
-.removeItemBtn{
-    width:100%;
-    font-weight:bold;
-    background-color:transparent;
-    height:40px;
-    border:2px solid black
-}
-.clearCartBtn{
-    width:100%;
-    margin-top:.5rem;
-    font-weight:bold;
-    background-color:transparent;
-    height:40px;
-    color:rgb(238, 87, 87);
-    border:2px solid rgb(238, 87, 87)
-}
-@media (min-width: 0px) and (max-width: 767px) { 
-    .cart{
-        width:250px;
-        right:4vw;
-        top:10.7vh;
-    }
 
+
+@media (min-width: 0px) and (max-width: 767px) { 
+    
 } 
   
 /* Media Query for Tablets Ipads portrait mode */ 
