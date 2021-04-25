@@ -164,7 +164,7 @@ function Main() {
                     {/* side 2 */}
                     <div className={styles.desc_row2}>
                         <h3>People also buy</h3>
-                        <div>
+                        <div style={{width:'90%'}}>
                             <RelatedImages image={db.products[7].image.src} />
                             <RelatedImages image={db.products[8].image.src} />
                             <RelatedImages image={db.products[11].image.src} />
